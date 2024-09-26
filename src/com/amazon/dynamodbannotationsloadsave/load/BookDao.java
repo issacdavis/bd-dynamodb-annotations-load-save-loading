@@ -24,6 +24,6 @@ public class BookDao {
      */
     public Book getBook(String key) {
         //TODO: Implement
-        return null;
+        return mapper.load(Book.class, key);
     }
 }
